@@ -10,7 +10,7 @@ export VERTEX_METER_PROJECT="${VERTEX_METER_PROJECT:-$CLAUDE_HARNESS_VERTEX_PROJ
 agy-fable-vertex() {
   AGY_PROVIDER=vertex \
   AGY_VERTEX_PROJECT_ID="$CLAUDE_HARNESS_VERTEX_PROJECT" \
-  AGY_VERTEX_REGION=us-central1 \
+  AGY_VERTEX_REGION=global \
   AGY_MODEL="claude-fable-5" \
   command agy "$@"
 }
